@@ -161,111 +161,9 @@ body {
   margin-left: 30%;
 }
 
-@media (min-width: 400px) and (max-width: 700px) {
-  .GridConteinerMain {
-    display: grid;
-    background-image: url("../Image/Fondo.svg");
-    min-height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
-    grid-template-areas:
-      "nav nav nav"
-      "media media media"
-      "text text text"
-      "text2 text2 text2"
-      "boton boton boton"
-      "footer footer footer";
-  }
-  .navbar {
-    grid-area: nav;
-    display: flex;
-    align-items: center;
-    margin-top: 2%;
-  }
-  .NavOrder {
-    text-align: center;
-    margin-left: 3%;
-  }
-  .link {
-    text-decoration: none;
-    font-size: 70%;
-    font-weight: 700;
-    color: #002856;
-  }
-
-  .imgLogo {
-    width: 110%;
-  }
-  .ImgLogoConteiner {
-    width: 30%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 0%;
-  }
-  .EstiloTitulo {
-    font-size: 100%;
-    margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 0%;
-  }
-  .Descripcion {
-    text-transform: capitalize;
-    font-size: 70%;
-    font-weight: 500;
-    margin-top: 0%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .ImagenMain {
-    justify-content: center;
-    align-items: center;
-  }
-
-  #Imagen1 {
-    width: 60%;
-    height: 80%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 0%;
-    margin-top: 5%;
-  }
-  .Boton {
-    grid-area: boton;
-    text-align: center;
-    align-self: flex-start;
-  }
-  .redes {
-    font-size: 80%;
-    color: white;
-    margin-left: 2%;
-  }
-  .whatsapp {
-    color: white;
-    text-decoration: none;
-  }
-
-  .linkedin {
-    color: white;
-    text-decoration: none;
-  }
-
-  .contacto {
-    color: white;
-    text-decoration: none;
-  }
-
-  .copy {
-    color: white;
-    margin-left: 5%;
-    font-size: 60%;
-  }
+.link:hover {
+  background-color: #002856;
+  color: white;
 }
 
 /* FIN INDEX */
@@ -340,6 +238,191 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 1%;
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas:
+      "nav nav nav"
+      "media media media"
+      "text text text"
+      "text2 text2 text2"
+      "boton boton boton"
+      "footer footer footer";
+  }
+  .navbar {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+  }
+  .NavOrder {
+    text-align: center;
+    margin-left: 3%;
+  }
+  .link {
+    text-decoration: none;
+    font-size: 80%;
+    font-weight: 700;
+    color: #002856;
+  }
+
+  .imgLogo {
+    width: 80%;
+  }
+  .ImgLogoConteiner {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  .EstiloTitulo {
+    font-size: 100%;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+  }
+  .Descripcion {
+    text-transform: capitalize;
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ImagenMain {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Imagen1 {
+    width: 50%;
+    height: 80%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+  }
+  .Boton {
+    grid-area: boton;
+    text-align: center;
+    align-self: flex-start;
+  }
+  .redes {
+    font-size: 80%;
+    color: white;
+    margin-left: 2%;
+  }
+  .whatsapp {
+    color: white;
+    text-decoration: none;
+  }
+
+  .linkedin {
+    color: white;
+    text-decoration: none;
+  }
+
+  .contacto {
+    color: white;
+    text-decoration: none;
+  }
+
+  .copy {
+    color: white;
+    margin-left: 5%;
+    font-size: 60%;
+  }
+
+  .TituloServicios {
+    grid-area: text;
+    align-self: center;
+  }
+
+  .EstiloTituloServicios {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-size: 80%;
+  }
+
+  .DescripcionServicios {
+    grid-area: text2;
+  }
+
+  .EstiloDescripcionServicios {
+    text-transform: capitalize;
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+
+  .ImagenServicios {
+    grid-area: media2;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
+  #Imagen2 {
+    width: 120%;
+  }
+
+  .TituloServicios2 {
+    grid-area: text3;
+  }
+
+  .ImagenMain {
+    grid-area: media;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+  }
+
+  #Imagen1 {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .EstiloTituloServicios2 {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-size: 80%;
+  }
+
+  .DescripcionServicios2 {
+    grid-area: text4;
+  }
+
+  .EstiloDescripcionServicios2 {
+    text-transform: capitalize;
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /*FIN DE SERVICIOS  */
