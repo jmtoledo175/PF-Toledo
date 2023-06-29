@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -9,11 +9,11 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
+} */
 
 /* INDEX */
 
-.GridConteinerMain {
+/* .GridConteinerMain {
   display: grid;
   background-image: url("../Image/Fondo.svg");
   min-height: 100vh;
@@ -25,16 +25,16 @@ body {
     "text2 text2 media"
     "boton boton boton"
     "footer footer footer";
-}
+} */
 
-.navbar {
+/* .navbar {
   grid-area: nav;
   display: flex;
   align-items: center;
   padding: 10px;
-}
+} */
 
-.ulLink {
+/* .ulLink {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,22 +57,22 @@ body {
   font-size: 120%;
   font-weight: 700;
   color: #002856;
-}
-
+} */
+/* 
 .ImgLogoConteiner {
   width: 30%;
 }
 
 .imgLogo {
-  /* margin-right: 10px; */
+  /* margin-right: 10px; 
   width: 45%;
-}
+} */
 
-.Div2 {
+/* .Div2 {
   grid-area: text2;
-}
+} */
 
-.ImagenMain {
+/* .ImagenMain {
   grid-area: media;
 }
 
@@ -81,9 +81,9 @@ body {
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
-}
+} */
 
-.titulo-main {
+/* .titulo-main {
   grid-area: text;
   align-self: flex-end;
 }
@@ -93,7 +93,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 0%;
-}
+} */
 
 .Titulo {
   text-transform: capitalize;
@@ -104,7 +104,7 @@ body {
   margin-top: 5%;
 }
 
-.Descripcion {
+/* .Descripcion {
   text-transform: capitalize;
   font-size: 1rem;
   font-weight: 500;
@@ -112,9 +112,9 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 1%;
-}
+} */
 
-.Boton {
+/* .Boton {
   grid-area: boton;
   text-align: center;
   align-self: center;
@@ -127,8 +127,8 @@ body {
   border-radius: 3px;
   cursor: pointer;
   padding: 5px;
-}
-
+} */
+/* 
 .footer {
   grid-area: footer;
   display: flex;
@@ -164,7 +164,7 @@ body {
 .link:hover {
   background-color: #002856;
   color: white;
-}
+} */
 
 /* FIN INDEX */
 
@@ -185,7 +185,7 @@ body {
     "footer footer footer";
 }
 
-.TituloServicios {
+/* .TituloServicios {
   grid-area: text;
   align-self: center;
 }
@@ -195,8 +195,8 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2%;
-}
-
+} */
+/* 
 .DescripcionServicios {
   grid-area: text2;
 }
@@ -213,9 +213,9 @@ body {
 
 .ImagenServicios {
   grid-area: media2;
-}
+} */
 
-.TituloServicios2 {
+/* .TituloServicios2 {
   grid-area: text3;
 }
 
@@ -224,9 +224,9 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2%;
-}
+} */
 
-.DescripcionServicios2 {
+/* .DescripcionServicios2 {
   grid-area: text4;
 }
 
@@ -238,7 +238,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 1%;
-}
+} */
 
 @media (min-width: 400px) and (max-width: 700px) {
   .GridConteinerMain {
@@ -255,24 +255,24 @@ body {
       "boton boton boton"
       "footer footer footer";
   }
-  .navbar {
+  /* .navbar {
     grid-area: nav;
     display: flex;
     align-items: center;
     margin-top: 2%;
-  }
-  .NavOrder {
+  } */
+  /* .NavOrder {
     text-align: center;
     margin-left: 3%;
-  }
-  .link {
+  } */
+  /* .link {
     text-decoration: none;
     font-size: 80%;
     font-weight: 700;
     color: #002856;
-  }
+  } */
 
-  .imgLogo {
+  /* .imgLogo {
     width: 80%;
   }
   .ImgLogoConteiner {
@@ -281,8 +281,8 @@ body {
     justify-content: center;
     margin-top: 2%;
     margin-bottom: 0%;
-  }
-  .EstiloTitulo {
+  } */
+  /* .EstiloTitulo {
     font-size: 100%;
     margin-top: 0%;
     margin-left: 5%;
@@ -300,8 +300,8 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-
+  } */
+  /* 
   .ImagenMain {
     justify-content: center;
     align-items: center;
@@ -314,8 +314,8 @@ body {
     margin-right: 20%;
     margin-bottom: 0%;
     margin-top: 5%;
-  }
-  .Boton {
+  } */
+  /* .Boton {
     grid-area: boton;
     text-align: center;
     align-self: flex-start;
@@ -344,7 +344,7 @@ body {
     color: white;
     margin-left: 5%;
     font-size: 60%;
-  }
+  } */
 
   .TituloServicios {
     grid-area: text;

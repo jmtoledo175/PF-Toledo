@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font;
+  color: $color;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @if $vista == mobile {
+    @media (min-width: 400px) {
+      .GridConteinerMain {
+        display: grid;
+        background-image: url("../Image/Fondo.svg");
+        min-height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+        grid-template-areas:
+          "nav nav nav"
+          "media media media"
+          "text text text"
+          "text2 text2 text2"
+          "boton boton boton"
+          "footer footer footer";
+      }
+      header {
+        grid-area: nav;
+        display: flex;
+        align-items: center;
+        margin-top: 2%;
+        a {
+          width: 30%;
+          align-items: center;
+          justify-content: center;
+          margin-top: 2%;
+          margin-bottom: 0%;
+          img {
+            width: 80%;
+          }
+        }
+        nav {
+          text-align: center;
+          margin-left: 3%;
+          ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            li {
+              display: inline-block;
+              margin-right: 30px;
+              margin: 0 10px;
+              a {
+                text-decoration: none;
+                font-size: 80%;
+                font-weight: 700;
+                font-size: 80%;
+                font-weight: 700;
+                color: $color;
+              }
+            }
+          }
+        }
+      }
+
+      div {
+        grid-area: text;
+        align-self: flex-end;
+        h2 {
+          font-size: 100%;
+          margin-top: 0%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 0%;
+        }
+      }
+
+      .Div2 {
+        grid-area: text2;
+        align-self: flex-start;
+        h3 {
+          text-transform: capitalize;
+          font-size: 70%;
+          font-weight: 500;
+          margin-top: 0%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 1%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .ImagenMain {
+        grid-area: media;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 50%;
+          height: 80%;
+          margin-left: 20%;
+          margin-right: 20%;
+          margin-bottom: 0%;
+          margin-top: 5%;
+        }
+      }
+
+      .Boton {
+        grid-area: boton;
+        text-align: center;
+        align-self: center;
+        a {
+          font-family: $font;
+          background-color: $color;
+          cursor: pointer;
+        }
+        button {
+          padding: 5px;
+          border-radius: 3px;
+          background-color: $color;
+          color: white;
+        }
+      }
+
+      footer {
+        grid-area: footer;
+        display: flex;
+        align-items: flex-end;
+        div {
+          font-size: 80%;
+          color: white;
+          margin-left: 2%;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .copy {
+        color: white;
+        margin-left: 5%;
+        font-size: 60%;
+      }
+    }
+  } @else if $vista == desktop {
+    .GridConteinerMain {
+      display: grid;
+      background-image: url("../Image/Fondo.svg");
+      min-height: 100vh;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.3fr;
+      grid-template-areas:
+        "nav nav nav"
+        "text text media"
+        "text2 text2 media"
+        "boton boton boton"
+        "footer footer footer";
+    }
+  }
+}
+
+header {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  a {
+    width: 30%;
+    img {
+      width: 45%;
+    }
+  }
+  nav {
+    list-style: none;
+    text-align: center;
+    margin-left: 5%;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          font-size: 120%;
+          font-weight: 700;
+          color: $color;
+        }
+      }
+    }
+  }
+}
+
+div {
+  grid-area: text;
+  align-self: flex-end;
+  h2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+  }
+}
+
+.Div2 {
+  grid-area: text2;
+  align-self: flex-start;
+  h3 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+}
+
+.ImagenMain {
+  grid-area: media;
+  img {
+    width: 120%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.Boton {
+  grid-area: boton;
+  text-align: center;
+  align-self: center;
+  a {
+    font-family: $font;
+    background-color: $color;
+    cursor: pointer;
+  }
+  button {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: $color;
+    color: white;
+  }
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  align-items: flex-end;
+  div {
+    font-size: 1rem;
+    color: white;
+    margin-left: 2%;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.copy {
+  color: $color;
+  margin-left: 30%;
+}

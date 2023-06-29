@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../css/Archivo.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
       rel="stylesheet"
@@ -20,10 +20,10 @@
     <title>Softvault</title>
   </head>
   <body>
-    <header>
-      <div class="navbar">
+    <div class="GridConteinerContacto">
+      <header>
         <a href="index.html"
-          ><img class="imgLogo" src="../image/Logoweb.png" alt="LOGO"
+          ><img class="imgLogo" src="../image/Logo.png" alt="LOGO"
         /></a>
         <nav>
           <ul>
@@ -42,46 +42,36 @@
             </li>
           </ul>
         </nav>
-      </div>
-    </header>
-    <hr />
-    <section class="formulario">
-      <form action="" id="forms">
-        <fieldset class="fieldset">
-          <legend class="tituloForm">Contacto</legend>
-          <div class="Nombre">
-            <label for="Nombre">Nombre</label>
-            <input type="text" id="nombre" name="Nombre" />
-          </div>
-          <div>
-            <label for="Email">Email</label>
-            <input type="email" id="Email" name="Email" />
-          </div>
-          <div>
-            <label for="Textarea" id="Textarea"
-              >¿En que te podemos ayudar?</label
-            >
-          </div>
-          <div>
-            <textarea name="Textarea" id="Text" cols="30" rows="10"></textarea>
-          </div>
-          <input type="button" class="boton" value="Enviar" />
-        </fieldset>
+      </header>
+      <form action="" class="formulario">
+        <h1 class="formulario__titulo">Contactenos</h1>
+        <input type="text" class="formulario__input" />
+        <label for="" class="formulario__label">Nombres</label>
+        <input type="text" class="formulario__input" />
+        <label for="" class="formulario__label">Correo</label>
+        <input type="text" class="formulario__input" />
+        <label for="" class="formulario__label">Teléfono</label>
+        <input type="text" class="formulario__input" />
+        <label for="" class="formulario__label">Mensaje</label>
+
+        <input type="submit" class="formulario__submit" />
       </form>
-    </section>
-    <footer id="footer">
-      <i class="fa-brands fa-whatsapp fa-lg"></i>
-      <i class="fa-brands fa-linkedin fa-lg"></i>
-      <a href="pages/contacto.html">CONTACTO</a>
-      <div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#002856"
-            fill-opacity="1"
-            d="M0,64L34.3,85.3C68.6,107,137,149,206,149.3C274.3,149,343,107,411,96C480,85,549,107,617,144C685.7,181,754,235,823,245.3C891.4,256,960,224,1029,229.3C1097.1,235,1166,277,1234,250.7C1302.9,224,1371,128,1406,80L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
-        </svg>
-      </div>
-    </footer>
+      <footer class="footer">
+        <div class="redes">
+          <a
+            class="whatsapp"
+            href="https://api.whatsapp.com/send/?phone=5493515054651&text&type=phone_number&app_absent=0"
+            ><i class="fa-brands fa-whatsapp fa-lg"></i
+          ></a>
+          <a
+            class="linkedin"
+            href="https://www.linkedin.com/company/softvault-sas/about/"
+            ><i class="fa-brands fa-linkedin fa-lg"></i
+          ></a>
+          <a class="contacto" href="pages/contacto.html">CONTACTO</a>
+        </div>
+        <div class="copy">&copy; Copyright 2023 Softvault</div>
+      </footer>
+    </div>
   </body>
 </html>

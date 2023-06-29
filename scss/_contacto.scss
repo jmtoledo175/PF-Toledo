@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: $font;
+  color: $color;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.GridConteinerContacto {
+  display: grid;
+  background-image: url("../Image/Fondo.svg");
+  min-height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.1fr 0.6fr 0.4fr;
+  grid-template-areas:
+    "nav nav nav"
+    "form form form"
+    "footer footer footer";
+}
+header {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  a {
+    width: 30%;
+    img {
+      width: 45%;
+    }
+  }
+  nav {
+    list-style: none;
+    text-align: center;
+    margin-left: 5%;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          font-size: 120%;
+          font-weight: 700;
+          color: $color;
+        }
+      }
+    }
+  }
+}
+
+form {
+  width: 40%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 0;
+  padding: 20px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  position: relative;
+  grid-area: form;
+  h1 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .formulario__input {
+    padding: 20px;
+    margin-bottom: 5%;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    width: 100%;
+  }
+  .formulario__label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -78px;
+    color: rgba(0, 0, 0, 0.3);
+    z-index: -20px;
+    display: block;
+    width: 100%;
+  }
+  .formulario__submit {
+    padding: 15px;
+    color: white;
+    background-color: $color;
+    cursor: pointer;
+    border: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 3%;
+  div {
+    font-size: 80%;
+    color: white;
+    margin-left: 2%;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

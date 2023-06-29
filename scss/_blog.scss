@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  color: $color;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  nav {
+    list-style: none;
+    text-align: center;
+    margin-left: 5%;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          font-size: 120%;
+          font-weight: 700;
+          color: $color;
+        }
+      }
+    }
+  }
+}
+
+.GridConteinerBlog {
+  display: grid;
+  background-image: url("../Image/Fondo.svg");
+  min-height: 100vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.1fr 0.5fr 0.1fr;
+  grid-template-areas:
+    "nav nav nav"
+    "card card card"
+    "footer footer footer";
+}
+
+section {
+  grid-area: card;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  article {
+    display: flex;
+    flex: 0 1 300px;
+    flex-direction: column;
+    border: 1px solid $color;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 70%;
+    img {
+      order: -1;
+      align-self: center;
+      width: 100%;
+    }
+    button {
+      background: $color;
+      color: white;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 1rem;
+      font-size: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  align-items: flex-end;
+  div {
+    font-size: 80%;
+    color: white;
+    margin-left: 2%;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

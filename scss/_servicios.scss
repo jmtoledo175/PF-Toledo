@@ -1,0 +1,225 @@
+body {
+  font-family: $font;
+  color: $color;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @if $vista == mobile {
+    @media (min-width: 400px) and (max-width: 700px) {
+      .GridConteinerServicios {
+        display: grid;
+        background-image: url("../Image/Fondo.svg");
+        min-height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.1fr 0.3fr 0.3fr 0.3fr 0.3fr 0.1fr;
+        grid-template-areas:
+          "nav nav nav"
+          "text text media"
+          "text2 text2 media"
+          "media2 text3 text3"
+          "media2 text4 text4"
+          "footer footer footer";
+      }
+      header {
+        grid-area: nav;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        nav {
+          list-style: none;
+          text-align: center;
+          margin-left: 5%;
+          ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            li {
+              display: inline-block;
+              margin-right: 30px;
+              margin: 0 10px;
+              a {
+                text-decoration: none;
+                font-size: 120%;
+                font-weight: 700;
+                color: $color;
+              }
+            }
+          }
+        }
+      }
+
+      .TituloServicios {
+        grid-area: text;
+        align-self: center;
+        h2 {
+          margin-top: 2%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 0%;
+          font-size: 80%;
+        }
+      }
+
+      .DescripcionServicios {
+        grid-area: text2;
+        h3 {
+          text-transform: capitalize;
+          font-size: 70%;
+          font-weight: 500;
+          margin-top: 0%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 1%;
+        }
+      }
+
+      .ImagenMain {
+        grid-area: media;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10%;
+      }
+
+      .TituloServicios2 {
+        grid-area: text3;
+        h2 {
+          margin-top: 8%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 0%;
+          font-size: 80%;
+        }
+      }
+
+      .DescripcionServicios2 {
+        grid-area: text4;
+        h3 {
+          text-transform: capitalize;
+          font-size: 70%;
+          font-weight: 500;
+          margin-top: 0%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 1%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+      .ImagenServicios {
+        grid-area: media2;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        img {
+          width: 120%;
+        }
+      }
+    }
+  } @else if $vista == desktop {
+    @media (min-width: 700px) {
+      .GridConteinerServicios {
+        display: grid;
+        background-image: url("../Image/Fondo.svg");
+        min-height: 100vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 0.1fr 0.3fr 0.3fr 0.3fr 0.3fr 0.1fr;
+        grid-template-areas:
+          "nav nav nav"
+          "text text media"
+          "text2 text2 media"
+          "media2 text3 text3"
+          "media2 text4 text4"
+          "footer footer footer";
+      }
+    }
+  }
+}
+
+header {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  nav {
+    list-style: none;
+    text-align: center;
+    margin-left: 5%;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      li {
+        display: inline-block;
+        margin-right: 30px;
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          font-size: 120%;
+          font-weight: 700;
+          color: $color;
+        }
+      }
+    }
+  }
+}
+
+.TituloServicios {
+  grid-area: text;
+  align-self: flex-end;
+  h2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+  }
+}
+
+.DescripcionServicios {
+  grid-area: text2;
+  align-self: flex-start;
+  h3 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+}
+
+.ImagenMain {
+  grid-area: media;
+  width: 70%;
+}
+
+.TituloServicios2 {
+  grid-area: text3;
+  align-self: flex-end;
+  h2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+  }
+}
+
+.DescripcionServicios2 {
+  grid-area: text4;
+  align-self: flex-start;
+  h3 {
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+}
+.ImagenServicios {
+  grid-area: media2;
+}
