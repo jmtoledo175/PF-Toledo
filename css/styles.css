@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #002856;
@@ -5,8 +10,35 @@ body {
   background-size: contain;
   background-position: center;
 }
-@media (min-width: 700px) {
+@media (min-width: 400px) and (max-width: 600px) {
+  body .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
   body .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  body .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+
+@media (min-width: 1200px) {
+  .GridConteinerServicios {
     display: grid;
     background-image: url("../Image/Fondo.svg");
     min-height: 100vh;
@@ -15,7 +47,6 @@ body {
     grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
   }
 }
-
 header {
   grid-area: nav;
   display: flex;
@@ -49,11 +80,69 @@ header nav ul li a {
   grid-area: text;
   align-self: flex-end;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  .TituloServicios {
+    align-self: flex-end;
+  }
+  .TituloServicios .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .TituloServicios .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .TituloServicios .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 .TituloServicios h2 {
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 0%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .TituloServicios h2 {
+    font-size: 80%;
+  }
+  .TituloServicios h2 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .TituloServicios h2 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .TituloServicios h2 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .DescripcionServicios {
@@ -69,10 +158,99 @@ header nav ul li a {
   margin-right: 5%;
   margin-bottom: 1%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  .DescripcionServicios h3 {
+    font-size: 70%;
+  }
+  .DescripcionServicios h3 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .DescripcionServicios h3 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .DescripcionServicios h3 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
-.ImagenMain {
+.ImagenMainServicios {
   grid-area: media;
   width: 70%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenMainServicios {
+    align-items: center;
+    justify-content: left;
+  }
+  .ImagenMainServicios .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenMainServicios .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenMainServicios .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenMainServicios img {
+    width: 150%;
+    justify-content: left;
+  }
+  .ImagenMainServicios img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenMainServicios img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenMainServicios img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .TituloServicios2 {
@@ -84,6 +262,39 @@ header nav ul li a {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .TituloServicios2 h2 {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-size: 80%;
+  }
+  .TituloServicios2 h2 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .TituloServicios2 h2 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .TituloServicios2 h2 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .DescripcionServicios2 {
@@ -99,9 +310,177 @@ header nav ul li a {
   margin-right: 5%;
   margin-bottom: 1%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  .DescripcionServicios2 h3 {
+    font-size: 70%;
+  }
+  .DescripcionServicios2 h3 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .DescripcionServicios2 h3 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .DescripcionServicios2 h3 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
 .ImagenServicios {
   grid-area: media2;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenServicios {
+    margin-left: 0%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+  }
+  .ImagenServicios .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenServicios .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenServicios .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenServicios img {
+    width: 150%;
+  }
+  .ImagenServicios img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenServicios img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenServicios img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  align-items: flex-end;
+}
+footer div {
+  font-size: 1rem;
+  color: white;
+  margin-left: 2%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  footer div {
+    font-size: 80%;
+  }
+  footer div .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  footer div .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  footer div .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+footer div a {
+  color: white;
+  text-decoration: none;
+}
+
+.copy {
+  color: #002856;
+  margin-left: 30%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .copy {
+    margin-left: 5%;
+    font-size: 60%;
+  }
+  .copy .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .copy .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .copy .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 body {
@@ -111,8 +490,35 @@ body {
   background-size: contain;
   background-position: center;
 }
-@media (min-width: 700px) {
+@media (min-width: 400px) and (max-width: 600px) {
+  body .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  body .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
   body .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+
+@media (min-width: 700px) {
+  .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
     min-height: 100vh;
@@ -121,17 +527,143 @@ body {
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
   }
 }
-
 header {
   grid-area: nav;
   display: flex;
   align-items: center;
   padding: 10px;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  header {
+    margin-top: 2%;
+  }
+  header .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+header a {
+  width: 30%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  header a {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  header a .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header a .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header a .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+header a img {
+  width: 45%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  header a img {
+    visibility: hidden;
+  }
+  header a img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header a img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header a img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 header nav {
   list-style: none;
   text-align: center;
   margin-left: 5%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  header nav {
+    text-align: left;
+    margin-right: 8%;
+    font-size: 90%;
+  }
+  header nav .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header nav .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header nav .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 header nav ul {
   display: flex;
@@ -150,10 +682,41 @@ header nav ul li a {
   font-weight: 700;
   color: #002856;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  header nav ul li a {
+    font-weight: 700;
+    font-weight: 700;
+    color: #002856;
+  }
+  header nav ul li a .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
 .TituloMision {
   grid-area: text;
-  align-self: center;
+  align-self: flex-end;
   margin-right: 10%;
 }
 .TituloMision h2 {
@@ -161,6 +724,39 @@ header nav ul li a {
   margin-left: 0%;
   margin-right: 20%;
   margin-bottom: 2%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .TituloMision h2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-size: 80%;
+  }
+  .TituloMision h2 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .TituloMision h2 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .TituloMision h2 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .DescripcionMision {
@@ -175,6 +771,40 @@ header nav ul li a {
   margin-right: 20%;
   margin-bottom: 1%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  .DescripcionMision h3 {
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+  .DescripcionMision h3 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .DescripcionMision h3 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .DescripcionMision h3 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
 .ImagenMision {
   grid-area: media;
@@ -183,6 +813,67 @@ header nav ul li a {
 }
 .ImagenMision img {
   width: 70%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenMision img {
+    margin-left: 10%;
+    margin-bottom: 20%;
+  }
+  .ImagenMision img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenMision img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenMision img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenMision {
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+  }
+  .ImagenMision .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenMision .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenMision .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .TituloVision {
@@ -194,6 +885,39 @@ header nav ul li a {
   margin-left: 35%;
   margin-right: 0%;
   margin-bottom: 2%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .TituloVision h2 {
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    font-size: 80%;
+  }
+  .TituloVision h2 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .TituloVision h2 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .TituloVision h2 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .DescripcionVision {
@@ -209,6 +933,40 @@ header nav ul li a {
   margin-right: 0%;
   margin-bottom: 0%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  .DescripcionVision h3 {
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+  }
+  .DescripcionVision h3 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .DescripcionVision h3 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .DescripcionVision h3 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
 .ImagenVision {
   grid-area: media2;
@@ -216,6 +974,114 @@ header nav ul li a {
 }
 .ImagenVision img {
   width: 70%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenVision img {
+    width: 90%;
+  }
+  .ImagenVision img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenVision img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenVision img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  align-items: flex-end;
+}
+footer div {
+  font-size: 1rem;
+  color: white;
+  margin-left: 2%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  footer div {
+    font-size: 80%;
+  }
+  footer div .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  footer div .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  footer div .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
+footer div a {
+  color: white;
+  text-decoration: none;
+}
+
+.copy {
+  color: #002856;
+  margin-left: 30%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .copy {
+    margin-left: 5%;
+    font-size: 60%;
+  }
+  .copy .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .copy .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .copy .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 * {
@@ -230,31 +1096,180 @@ body {
   background-size: contain;
   background-position: center;
 }
-body .GridConteinerMain {
-  display: grid;
-  background-image: url("../Image/Fondo.svg");
-  min-height: 100vh;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.3fr;
-  grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "boton boton boton" "footer footer footer";
+@media (min-width: 400px) and (max-width: 600px) {
+  body .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  body .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  body .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
+@media (min-width: 1200px) {
+  .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.3fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "boton boton boton" "footer footer footer";
+  }
+}
 header {
   grid-area: nav;
   display: flex;
   align-items: center;
   padding: 10px;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  header {
+    margin-top: 2%;
+  }
+  header .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 header a {
   width: 30%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  header a {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 0%;
+  }
+  header a .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header a .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header a .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 header a img {
   width: 45%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  header a img {
+    visibility: hidden;
+  }
+  header a img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header a img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header a img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 header nav {
   list-style: none;
   text-align: center;
   margin-left: 5%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  header nav {
+    text-align: left;
+    margin-right: 8%;
+    font-size: 90%;
+  }
+  header nav .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header nav .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header nav .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 header nav ul {
   display: flex;
@@ -273,6 +1288,37 @@ header nav ul li a {
   font-weight: 700;
   color: #002856;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  header nav ul li a {
+    font-weight: 700;
+    font-weight: 700;
+    color: #002856;
+  }
+  header nav ul li a .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
 div {
   grid-area: text;
@@ -283,6 +1329,39 @@ div h2 {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 0%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  div h2 {
+    font-size: 100%;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+  }
+  div h2 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  div h2 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  div h2 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .Div2 {
@@ -298,14 +1377,116 @@ div h2 {
   margin-right: 5%;
   margin-bottom: 1%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  .Div2 h3 {
+    text-transform: capitalize;
+    font-size: 70%;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .Div2 h3 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .Div2 h3 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .Div2 h3 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 
 .ImagenMain {
   grid-area: media;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenMain {
+    justify-content: center;
+    align-items: center;
+  }
+  .ImagenMain .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenMain .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenMain .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 .ImagenMain img {
   width: 120%;
   margin-left: 5%;
   margin-right: 5%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .ImagenMain img {
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+  }
+  .ImagenMain img .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .ImagenMain img .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .ImagenMain img .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 .Boton {
@@ -335,6 +1516,35 @@ footer div {
   color: white;
   margin-left: 2%;
 }
+@media (min-width: 400px) and (max-width: 600px) {
+  footer div {
+    font-size: 80%;
+  }
+  footer div .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  footer div .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  footer div .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+}
 footer div a {
   color: white;
   text-decoration: none;
@@ -343,6 +1553,36 @@ footer div a {
 .copy {
   color: #002856;
   margin-left: 30%;
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .copy {
+    margin-left: 5%;
+    font-size: 60%;
+  }
+  .copy .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  .copy .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  .copy .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/Fondo.svg");
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
 }
 
 * {
