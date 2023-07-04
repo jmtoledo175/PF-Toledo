@@ -30,6 +30,9 @@ body {
   body .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -41,6 +44,9 @@ body {
   .GridConteinerServicios {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.3fr 0.3fr 0.3fr 0.3fr 0.1fr;
@@ -103,6 +109,9 @@ header nav ul li a {
   .TituloServicios .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -138,6 +147,9 @@ header nav ul li a {
   .TituloServicios h2 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -181,6 +193,9 @@ header nav ul li a {
   .DescripcionServicios h3 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -216,6 +231,9 @@ header nav ul li a {
   .ImagenMainServicios .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -246,6 +264,9 @@ header nav ul li a {
   .ImagenMainServicios img .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -290,6 +311,9 @@ header nav ul li a {
   .TituloServicios2 h2 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -333,6 +357,9 @@ header nav ul li a {
   .DescripcionServicios2 h3 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -368,6 +395,9 @@ header nav ul li a {
   .ImagenServicios .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -397,6 +427,9 @@ header nav ul li a {
   .ImagenServicios img .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -437,6 +470,9 @@ footer div {
   footer div .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -476,6 +512,9 @@ footer div a {
   .copy .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -510,6 +549,9 @@ body {
   body .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -521,6 +563,9 @@ body {
   .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.3fr 0.3fr 0.4fr 0.3fr 0.1fr;
@@ -556,6 +601,9 @@ header {
   header .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -591,6 +639,9 @@ header a {
   header a .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -623,6 +674,9 @@ header a img {
   header a img .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -659,6 +713,9 @@ header nav {
   header nav .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -707,6 +764,9 @@ header nav ul li a {
   header nav ul li a .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -752,6 +812,9 @@ header nav ul li a {
   .TituloMision h2 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -799,6 +862,9 @@ header nav ul li a {
   .DescripcionMision h3 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -838,6 +904,9 @@ header nav ul li a {
   .ImagenMision img .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -869,6 +938,9 @@ header nav ul li a {
   .ImagenMision .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -913,6 +985,9 @@ header nav ul li a {
   .TituloVision h2 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -961,6 +1036,9 @@ header nav ul li a {
   .DescripcionVision h3 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -998,6 +1076,9 @@ header nav ul li a {
   .ImagenVision img .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1038,6 +1119,9 @@ footer div {
   footer div .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1077,6 +1161,9 @@ footer div a {
   .copy .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1093,7 +1180,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #002856;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position: center;
 }
 @media (min-width: 400px) and (max-width: 600px) {
@@ -1116,6 +1203,9 @@ body {
   body .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1127,6 +1217,9 @@ body {
   .GridConteinerMain {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
@@ -1162,6 +1255,9 @@ header {
   header .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1197,6 +1293,9 @@ header a {
   header a .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1236,6 +1335,9 @@ header nav {
   header nav .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1284,6 +1386,9 @@ header nav ul li a {
   header nav ul li a .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1328,6 +1433,9 @@ div h2 {
   div h2 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1380,6 +1488,9 @@ div h2 {
   .Div2 h3 .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1414,6 +1525,9 @@ div h2 {
   .ImagenMain .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1453,6 +1567,9 @@ div h2 {
   .ImagenMain img .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1509,6 +1626,9 @@ footer div {
   footer div .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1548,6 +1668,9 @@ footer div a {
   .copy .GridConteinerNosotros {
     display: grid;
     background-image: url("../Image/Fondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
@@ -1571,6 +1694,9 @@ body {
 .GridConteinerContacto {
   display: grid;
   background-image: url("../Image/Fondo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.1fr 0.6fr 0.4fr;
@@ -1714,6 +1840,9 @@ header nav ul li a {
 .GridConteinerBlog {
   display: grid;
   background-image: url("../Image/Fondo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.1fr 0.5fr 0.1fr;

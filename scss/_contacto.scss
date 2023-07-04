@@ -12,6 +12,9 @@ body {
 .GridConteinerContacto {
   display: grid;
   background-image: url("../Image/Fondo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   min-height: 100vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 0.1fr 0.6fr 0.4fr;

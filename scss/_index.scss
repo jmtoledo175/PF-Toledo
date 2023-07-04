@@ -8,7 +8,7 @@ body {
   font-family: $font;
   color: $color;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position: center;
   @include mobile;
 }
@@ -21,6 +21,9 @@ body {
     .GridConteinerMain {
       display: grid;
       background-image: url("../Image/Fondo.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       min-height: 100vh;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
