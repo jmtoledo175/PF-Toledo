@@ -23,7 +23,7 @@ body {
       background-image: url("../Image/Fondo.svg");
       min-height: 100vh;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.3fr;
+      grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
       grid-template-areas:
         "nav nav nav"
         "text text media"
@@ -52,9 +52,21 @@ header {
     }
     img {
       width: 45%;
-      @include mobile {
-        visibility: hidden;
-      }
+      // animation: logo 6s linear infinite;
+      // @keyframes logo {
+      //   0% {
+      //     transform: rotateX(0deg) rotateY(0deg);
+      //   }
+      //   50% {
+      //     transform: rotateX(0deg) rotateY(180deg);
+      //   }
+      //   100% {
+      //     transform: rotateX(180deg) rotateY(180deg);
+      //   }
+      // }
+      // @include mobile {
+      //   visibility: hidden;
+      // }
     }
   }
   nav {
@@ -142,7 +154,7 @@ div {
     align-items: center;
   }
   img {
-    width: 120%;
+    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     @include mobile {
@@ -160,10 +172,10 @@ div {
   grid-area: boton;
   text-align: center;
   align-self: center;
+
   a {
     font-family: $font;
     background-color: $color;
-    cursor: pointer;
   }
   button {
     padding: 5px;

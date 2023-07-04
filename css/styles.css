@@ -1129,7 +1129,7 @@ body {
     background-image: url("../Image/Fondo.svg");
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.3fr;
+    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
     grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "boton boton boton" "footer footer footer";
   }
 }
@@ -1205,35 +1205,6 @@ header a {
 }
 header a img {
   width: 45%;
-}
-@media (min-width: 400px) and (max-width: 600px) {
-  header a img {
-    visibility: hidden;
-  }
-  header a img .GridConteinerMain {
-    display: grid;
-    background-image: url("../Image/Fondo.svg");
-    min-height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
-    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
-  }
-  header a img .GridConteinerServicios {
-    display: grid;
-    background-image: url("../Image/Fondo.svg");
-    min-height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
-    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
-  }
-  header a img .GridConteinerNosotros {
-    display: grid;
-    background-image: url("../Image/Fondo.svg");
-    min-height: 100vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
-    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
-  }
 }
 header nav {
   list-style: none;
@@ -1450,7 +1421,7 @@ div h2 {
   }
 }
 .ImagenMain img {
-  width: 120%;
+  width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -1497,7 +1468,6 @@ div h2 {
 .Boton a {
   font-family: "Poppins", sans-serif;
   background-color: #002856;
-  cursor: pointer;
 }
 .Boton button {
   padding: 5px;
