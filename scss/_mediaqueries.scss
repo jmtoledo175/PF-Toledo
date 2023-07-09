@@ -1,12 +1,13 @@
 @mixin mobile {
-  @media (min-width: 400px) and (max-width: 600px) {
+  @media (min-width: 300px) and (max-width: 600px) {
     @content;
     .GridConteinerMain {
       display: grid;
-      background-image: url("../Image/Fondo.svg");
-      min-height: 100vh;
+      background-image: url("../Image/FondoTelefono.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.4fr 0.3fr;
+      grid-template-rows: 0.1fr 0.6fr 0.6fr 0.6fr 0.6fr 0.9fr;
       grid-template-areas:
         "nav nav nav"
         "media media media"
@@ -19,6 +20,9 @@
       display: grid;
       background-image: url("../Image/Fondo.svg");
       min-height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
       grid-template-areas:
@@ -32,10 +36,10 @@
     .GridConteinerNosotros {
       display: grid;
       background-image: url("../Image/Fondo.svg");
+      min-height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
-      min-height: 100vh;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
       grid-template-areas:

@@ -7,14 +7,11 @@
 body {
   font-family: $font;
   color: $color;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
   @include mobile;
 }
 
 @if $vista == mobile {
-  @media (min-width: 400px) and (max-width: 600px) {
+  @media (min-width: 300px) and (max-width: 600px) {
   }
 } @else if $vista == desktop {
   @media (min-width: 1200px) {
@@ -44,6 +41,7 @@ header {
   padding: 10px;
   @include mobile {
     margin-top: 2%;
+    padding: 0%;
   }
   a {
     width: 30%;
@@ -55,21 +53,6 @@ header {
     }
     img {
       width: 45%;
-      // animation: logo 6s linear infinite;
-      // @keyframes logo {
-      //   0% {
-      //     transform: rotateX(0deg) rotateY(0deg);
-      //   }
-      //   50% {
-      //     transform: rotateX(0deg) rotateY(180deg);
-      //   }
-      //   100% {
-      //     transform: rotateX(180deg) rotateY(180deg);
-      //   }
-      // }
-      // @include mobile {
-      //   visibility: hidden;
-      // }
     }
   }
   nav {
@@ -78,8 +61,8 @@ header {
     margin-left: 5%;
     @include mobile {
       text-align: left;
-      margin-right: 8%;
-      font-size: 90%;
+      margin-left: 2%;
+      font-size: 60%;
     }
     ul {
       display: flex;
@@ -90,14 +73,17 @@ header {
         display: inline-block;
         margin-right: 30px;
         margin: 0 10px;
+        @include mobile {
+          margin-right: 0;
+          flex-grow: 0;
+        }
         a {
           text-decoration: none;
           font-size: 120%;
           font-weight: 700;
           color: $color;
           @include mobile {
-            font-weight: 700;
-            font-weight: 700;
+            font-weight: 300;
             color: $color;
           }
         }
@@ -114,8 +100,9 @@ div {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0%;
+    font-size: 200%;
     @include mobile {
-      font-size: 100%;
+      font-size: 120%;
       margin-top: 0%;
       margin-left: 5%;
       margin-right: 5%;
@@ -127,9 +114,12 @@ div {
 .Div2 {
   grid-area: text2;
   align-self: flex-start;
+  @include mobile {
+    align-self: center;
+  }
   h3 {
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 120%;
     font-weight: 500;
     margin-top: 1%;
     margin-left: 5%;
@@ -137,33 +127,32 @@ div {
     margin-bottom: 1%;
     @include mobile {
       text-transform: capitalize;
-      font-size: 70%;
+      font-size: 80%;
       font-weight: 500;
       margin-top: 0%;
       margin-left: 5%;
       margin-right: 5%;
       margin-bottom: 1%;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      text-align: center;
     }
   }
 }
 
 .ImagenMain {
   grid-area: media;
+  align-self: center;
   @include mobile {
     justify-content: center;
     align-items: center;
   }
   img {
     width: 90%;
-    margin-left: 5%;
+
     margin-right: 5%;
     @include mobile {
-      width: 50%;
-      height: 80%;
-      margin-left: 25%;
+      width: 70%;
+      height: 90%;
+      margin-left: 15%;
       margin-right: 20%;
       margin-bottom: 0%;
       margin-top: 5%;
@@ -175,23 +164,32 @@ div {
   grid-area: boton;
   text-align: center;
   align-self: center;
-
+  @include mobile {
+    align-self: flex-start;
+  }
   a {
     font-family: $font;
     background-color: $color;
   }
   button {
-    padding: 5px;
+    font-weight: 700;
+    font-size: 100%;
+    padding: 20px;
     border-radius: 3px;
     background-color: $color;
     color: white;
+    @include mobile {
+      padding: 10px;
+      font-size: 80%;
+      background-color: #002856;
+      color: white;
+    }
   }
 }
 
 footer {
   grid-area: footer;
   display: flex;
-  align-items: flex-end;
   div {
     font-size: 1rem;
     color: white;
@@ -208,9 +206,10 @@ footer {
 
 .copy {
   color: $color;
-  margin-left: 30%;
+  align-items: flex-end;
   @include mobile {
     margin-left: 5%;
-    font-size: 60%;
+    font-size: 80%;
+    color: white;
   }
 }

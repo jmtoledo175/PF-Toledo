@@ -1,28 +1,37 @@
 * {
   box-sizing: border-box;
 }
+@import "mediaqueries";
 body {
-  margin: 0;
   font-family: $font;
   color: $color;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  @include mobile;
 }
-.GridConteinerContacto {
-  display: grid;
-  background-image: url("../Image/Fondo.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.1fr 0.6fr 0.4fr;
-  grid-template-areas:
-    "nav nav nav"
-    "form form form"
-    "footer footer footer";
+
+@if $vista == mobile {
+  @media (min-width: 400px) and (max-width: 600px) {
+  }
+} @else if $vista == desktop {
+  @media (min-width: 1200px) {
+    .GridConteinerContacto {
+      display: grid;
+      background-image: url("../Image/Fondo.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
+      grid-template-areas:
+        "nav nav nav"
+        "form form form"
+        "form form form"
+        "form form form"
+        "footer footer footer";
+    }
+  }
 }
+
 header {
   grid-area: nav;
   display: flex;
@@ -62,10 +71,9 @@ form {
   width: 40%;
   max-width: 100%;
   margin: auto;
-  margin-top: 0;
+  margin-top: 2%;
   padding: 20px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
-  position: relative;
   grid-area: form;
   h1 {
     text-align: center;
