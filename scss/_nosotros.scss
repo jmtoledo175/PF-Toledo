@@ -99,11 +99,12 @@ header {
     margin-right: 20%;
     margin-bottom: 2%;
     @include mobile {
-      margin-top: 2%;
+      margin-top: 0%;
       margin-left: 5%;
       margin-right: 5%;
       margin-bottom: 0%;
       font-size: 80%;
+      text-align: center;
     }
   }
 }
@@ -137,27 +138,32 @@ header {
   img {
     width: 70%;
     @include mobile {
-      margin-left: 10%;
+      margin-left: 25%;
       margin-bottom: 20%;
     }
   }
   @include mobile {
     align-items: center;
-    justify-content: flex-start;
-    width: 90%;
+    justify-content: center;
+    width: 60%;
+    margin-top: 5%;
   }
 }
 
 .TituloVision {
   grid-area: text3;
   align-self: flex-end;
+  @include mobile {
+    align-self: center;
+    text-align: center;
+  }
   h2 {
     margin-top: 2%;
     margin-left: 35%;
     margin-right: 0%;
     margin-bottom: 2%;
     @include mobile {
-      margin-top: 8%;
+      margin-top: 0%;
       margin-left: 5%;
       margin-right: 5%;
       margin-bottom: 0%;
@@ -190,10 +196,16 @@ header {
 .ImagenVision {
   grid-area: media2;
   margin-top: 15%;
+  @include mobile {
+    margin-top: 5%;
+  }
   img {
     width: 70%;
     @include mobile {
-      width: 90%;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      margin-left: 25%;
     }
   }
 }

@@ -24,13 +24,15 @@
       background-size: cover;
       background-position: center;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+      grid-template-rows: 0.1fr 0.2fr 0.1fr 0.2fr 0.2fr 0.1fr 0.2fr 0.6fr;
       grid-template-areas:
         "nav nav nav"
-        "text text media"
-        "text2 text2 media"
-        "media2 text3 text3"
-        "media2 text4 text4"
+        "media media media"
+        "text text text"
+        "text2 text2 text2"
+        "media2 media2 media2"
+        "text3 text3 text3"
+        "text4 text4 text4"
         "footer footer footer";
     }
     .GridConteinerNosotros {
@@ -41,13 +43,15 @@
       background-size: cover;
       background-position: center;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+      grid-template-rows: 0.1fr 0.2fr 0.1fr 0.2fr 0.2fr 0.1fr 0.2fr 0.6fr;
       grid-template-areas:
         "nav nav nav"
-        "media text text"
-        "media text2 text2"
-        "text3 text3 media2"
-        "text4 text4 media2"
+        "media media media"
+        "text text text"
+        "text2 text2 text2"
+        "media2 media2 media2"
+        "text3 text3 text3"
+        "text4 text4 text4"
         "footer footer footer";
     }
     .GridConteinerBlog {
