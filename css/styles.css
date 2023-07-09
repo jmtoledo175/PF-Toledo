@@ -22,7 +22,7 @@ body {
   }
   body .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@ body {
   }
   body .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,6 +41,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  body .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  body .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -105,7 +127,7 @@ header nav ul li a {
   }
   .TituloServicios .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -116,7 +138,7 @@ header nav ul li a {
   }
   .TituloServicios .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,6 +146,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .TituloServicios .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .TituloServicios .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 .TituloServicios h2 {
@@ -147,7 +191,7 @@ header nav ul li a {
   }
   .TituloServicios h2 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +202,7 @@ header nav ul li a {
   }
   .TituloServicios h2 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,6 +210,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .TituloServicios h2 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .TituloServicios h2 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -197,7 +263,7 @@ header nav ul li a {
   }
   .DescripcionServicios h3 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +274,7 @@ header nav ul li a {
   }
   .DescripcionServicios h3 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,6 +282,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .DescripcionServicios h3 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .DescripcionServicios h3 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -239,7 +327,7 @@ header nav ul li a {
   }
   .ImagenMainServicios .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +338,7 @@ header nav ul li a {
   }
   .ImagenMainServicios .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -258,6 +346,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenMainServicios .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenMainServicios .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 @media (min-width: 300px) and (max-width: 600px) {
@@ -276,7 +386,7 @@ header nav ul li a {
   }
   .ImagenMainServicios img .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,7 +397,7 @@ header nav ul li a {
   }
   .ImagenMainServicios img .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -295,6 +405,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenMainServicios img .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenMainServicios img .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -327,7 +459,7 @@ header nav ul li a {
   }
   .TituloServicios2 h2 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -338,7 +470,7 @@ header nav ul li a {
   }
   .TituloServicios2 h2 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,6 +478,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .TituloServicios2 h2 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .TituloServicios2 h2 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -377,7 +531,7 @@ header nav ul li a {
   }
   .DescripcionServicios2 h3 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -388,7 +542,7 @@ header nav ul li a {
   }
   .DescripcionServicios2 h3 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -396,6 +550,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .DescripcionServicios2 h3 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .DescripcionServicios2 h3 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -419,7 +595,7 @@ header nav ul li a {
   }
   .ImagenServicios .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,7 +606,7 @@ header nav ul li a {
   }
   .ImagenServicios .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -438,6 +614,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenServicios .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenServicios .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 @media (min-width: 300px) and (max-width: 600px) {
@@ -455,7 +653,7 @@ header nav ul li a {
   }
   .ImagenServicios img .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,7 +664,7 @@ header nav ul li a {
   }
   .ImagenServicios img .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -474,6 +672,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenServicios img .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenServicios img .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -502,7 +722,7 @@ footer div {
   }
   footer div .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -513,7 +733,7 @@ footer div {
   }
   footer div .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -521,6 +741,28 @@ footer div {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  footer div .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  footer div .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 footer div a {
@@ -548,7 +790,7 @@ footer div a {
   }
   .copy .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -559,7 +801,7 @@ footer div a {
   }
   .copy .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -567,6 +809,28 @@ footer div a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .copy .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .copy .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -589,7 +853,7 @@ body {
   }
   body .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -600,7 +864,7 @@ body {
   }
   body .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -608,6 +872,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  body .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  body .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -645,7 +931,7 @@ header {
   }
   header .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -656,7 +942,7 @@ header {
   }
   header .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -664,6 +950,28 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header a {
@@ -687,7 +995,7 @@ header a {
   }
   header a .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -698,7 +1006,7 @@ header a {
   }
   header a .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -706,6 +1014,28 @@ header a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header a .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header a .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header a img {
@@ -726,7 +1056,7 @@ header a img {
   }
   header a img .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -737,7 +1067,7 @@ header a img {
   }
   header a img .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -745,6 +1075,28 @@ header a img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header a img .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header a img .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header nav {
@@ -769,7 +1121,7 @@ header nav {
   }
   header nav .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -780,7 +1132,7 @@ header nav {
   }
   header nav .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -788,6 +1140,28 @@ header nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header nav .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header nav .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header nav ul {
@@ -824,7 +1198,7 @@ header nav ul li a {
   }
   header nav ul li a .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -835,7 +1209,7 @@ header nav ul li a {
   }
   header nav ul li a .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -843,6 +1217,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -876,7 +1272,7 @@ header nav ul li a {
   }
   .TituloMision h2 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -887,7 +1283,7 @@ header nav ul li a {
   }
   .TituloMision h2 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -895,6 +1291,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .TituloMision h2 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .TituloMision h2 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -930,7 +1348,7 @@ header nav ul li a {
   }
   .DescripcionMision h3 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -941,7 +1359,7 @@ header nav ul li a {
   }
   .DescripcionMision h3 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -949,6 +1367,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .DescripcionMision h3 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .DescripcionMision h3 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -976,7 +1416,7 @@ header nav ul li a {
   }
   .ImagenMision img .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -987,7 +1427,7 @@ header nav ul li a {
   }
   .ImagenMision img .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -995,6 +1435,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenMision img .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenMision img .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 @media (min-width: 300px) and (max-width: 600px) {
@@ -1014,7 +1476,7 @@ header nav ul li a {
   }
   .ImagenMision .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1025,7 +1487,7 @@ header nav ul li a {
   }
   .ImagenMision .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1033,6 +1495,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenMision .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenMision .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1065,7 +1549,7 @@ header nav ul li a {
   }
   .TituloVision h2 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1076,7 +1560,7 @@ header nav ul li a {
   }
   .TituloVision h2 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1084,6 +1568,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .TituloVision h2 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .TituloVision h2 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1120,7 +1626,7 @@ header nav ul li a {
   }
   .DescripcionVision h3 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1131,7 +1637,7 @@ header nav ul li a {
   }
   .DescripcionVision h3 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1139,6 +1645,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .DescripcionVision h3 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .DescripcionVision h3 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1164,7 +1692,7 @@ header nav ul li a {
   }
   .ImagenVision img .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1175,7 +1703,7 @@ header nav ul li a {
   }
   .ImagenVision img .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1183,6 +1711,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenVision img .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenVision img .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1211,7 +1761,7 @@ footer div {
   }
   footer div .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1222,7 +1772,7 @@ footer div {
   }
   footer div .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1230,6 +1780,28 @@ footer div {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  footer div .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  footer div .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 footer div a {
@@ -1257,7 +1829,7 @@ footer div a {
   }
   .copy .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1268,7 +1840,7 @@ footer div a {
   }
   .copy .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1276,6 +1848,28 @@ footer div a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .copy .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .copy .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1300,7 +1894,7 @@ body {
   }
   body .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1311,7 +1905,7 @@ body {
   }
   body .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1319,6 +1913,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  body .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  body .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1357,7 +1973,7 @@ header {
   }
   header .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1368,7 +1984,7 @@ header {
   }
   header .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1376,6 +1992,28 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header a {
@@ -1399,7 +2037,7 @@ header a {
   }
   header a .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1410,7 +2048,7 @@ header a {
   }
   header a .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1418,6 +2056,28 @@ header a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header a .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header a .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header a img {
@@ -1445,7 +2105,7 @@ header nav {
   }
   header nav .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1456,7 +2116,7 @@ header nav {
   }
   header nav .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1464,6 +2124,28 @@ header nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header nav .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header nav .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header nav ul {
@@ -1493,7 +2175,7 @@ header nav ul li {
   }
   header nav ul li .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1504,7 +2186,7 @@ header nav ul li {
   }
   header nav ul li .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1512,6 +2194,28 @@ header nav ul li {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header nav ul li .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header nav ul li .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 header nav ul li a {
@@ -1536,7 +2240,7 @@ header nav ul li a {
   }
   header nav ul li a .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1547,7 +2251,7 @@ header nav ul li a {
   }
   header nav ul li a .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1555,6 +2259,28 @@ header nav ul li a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  header nav ul li a .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1588,7 +2314,7 @@ div h2 {
   }
   div h2 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1599,7 +2325,7 @@ div h2 {
   }
   div h2 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1607,6 +2333,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  div h2 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  div h2 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1629,7 +2377,7 @@ div h2 {
   }
   .Div2 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1640,7 +2388,7 @@ div h2 {
   }
   .Div2 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1648,6 +2396,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .Div2 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .Div2 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 .Div2 h3 {
@@ -1681,7 +2451,7 @@ div h2 {
   }
   .Div2 h3 .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1692,7 +2462,7 @@ div h2 {
   }
   .Div2 h3 .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1700,6 +2470,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .Div2 h3 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .Div2 h3 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1723,7 +2515,7 @@ div h2 {
   }
   .ImagenMain .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1734,7 +2526,7 @@ div h2 {
   }
   .ImagenMain .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1742,6 +2534,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenMain .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenMain .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 .ImagenMain img {
@@ -1768,7 +2582,7 @@ div h2 {
   }
   .ImagenMain img .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1779,7 +2593,7 @@ div h2 {
   }
   .ImagenMain img .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1787,6 +2601,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .ImagenMain img .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .ImagenMain img .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1810,7 +2646,7 @@ div h2 {
   }
   .Boton .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1821,7 +2657,7 @@ div h2 {
   }
   .Boton .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1829,6 +2665,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .Boton .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .Boton .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 .Boton a {
@@ -1861,7 +2719,7 @@ div h2 {
   }
   .Boton button .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1872,7 +2730,7 @@ div h2 {
   }
   .Boton button .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1880,6 +2738,28 @@ div h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .Boton button .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .Boton button .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1907,7 +2787,7 @@ footer div {
   }
   footer div .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1918,7 +2798,7 @@ footer div {
   }
   footer div .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1926,6 +2806,28 @@ footer div {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  footer div .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  footer div .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 footer div a {
@@ -1954,7 +2856,7 @@ footer div a {
   }
   .copy .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1965,7 +2867,7 @@ footer div a {
   }
   .copy .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1973,6 +2875,28 @@ footer div a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  .copy .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  .copy .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -1996,7 +2920,7 @@ body {
   }
   body .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2007,7 +2931,7 @@ body {
   }
   body .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2015,6 +2939,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  body .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  body .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -2075,10 +3021,128 @@ form {
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
   grid-area: form;
 }
+@media (min-width: 300px) and (max-width: 600px) {
+  form {
+    width: 95%;
+    height: 110%;
+    margin-top: 10%;
+  }
+  form .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.6fr 0.6fr 0.6fr 0.6fr 0.9fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  form .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  form .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  form .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  form .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
+  }
+}
 form h1 {
   text-align: center;
   margin: 0;
   margin-bottom: 40px;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  form h1 {
+    font-size: 120%;
+  }
+  form h1 .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.6fr 0.6fr 0.6fr 0.6fr 0.9fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  form h1 .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  form h1 .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  form h1 .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  form h1 .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
+  }
 }
 form .formulario__input {
   padding: 20px;
@@ -2105,6 +3169,65 @@ form .formulario__submit {
   border: none;
   display: block;
   width: 100%;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  form .formulario__submit {
+    margin-top: 20%;
+    margin-bottom: 0%;
+  }
+  form .formulario__submit .GridConteinerMain {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.6fr 0.6fr 0.6fr 0.6fr 0.9fr;
+    grid-template-areas: "nav nav nav" "media media media" "text text text" "text2 text2 text2" "boton boton boton" "footer footer footer";
+  }
+  form .formulario__submit .GridConteinerServicios {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.4fr 0.4fr 0.1fr;
+    grid-template-areas: "nav nav nav" "text text media" "text2 text2 media" "media2 text3 text3" "media2 text4 text4" "footer footer footer";
+  }
+  form .formulario__submit .GridConteinerNosotros {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
+    grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  form .formulario__submit .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  form .formulario__submit .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
+  }
 }
 
 footer {
@@ -2146,7 +3269,7 @@ body {
   }
   body .GridConteinerServicios {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2157,7 +3280,7 @@ body {
   }
   body .GridConteinerNosotros {
     display: grid;
-    background-image: url("../Image/Fondo.svg");
+    background-image: url("../Image/FondoTelefono.svg");
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2165,6 +3288,28 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.3fr 0.6fr;
     grid-template-areas: "nav nav nav" "media text text" "media text2 text2" "text3 text3 media2" "text4 text4 media2" "footer footer footer";
+  }
+  body .GridConteinerBlog {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.3fr 0.2fr 0.6fr;
+    grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "card card card" "footer footer footer";
+  }
+  body .GridConteinerContacto {
+    display: grid;
+    background-image: url("../Image/FondoTelefono.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+    grid-template-areas: "nav nav nav" "form form form" "form form form" "footer footer footer";
   }
 }
 
@@ -2177,7 +3322,7 @@ body {
     background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.2fr 0.1fr;
     grid-template-areas: "nav nav nav" "card card card" "card card card" "card card card" "footer footer footer";
   }
 }
@@ -2214,7 +3359,7 @@ section {
   grid-area: card;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 5%;
   flex-wrap: wrap;
 }
 section article {
@@ -2226,12 +3371,22 @@ section article {
   padding: 2rem;
   margin-top: 2%;
   margin-bottom: 0%;
-  font-size: 70%;
+  font-size: 60%;
+}
+section article h2 {
+  font-size: medium;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 section article img {
   order: -1;
   align-self: center;
   width: 100%;
+}
+section article p {
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 section article button {
   background: #002856;
