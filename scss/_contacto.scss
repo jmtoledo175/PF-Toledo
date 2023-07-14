@@ -21,7 +21,7 @@ body {
       background-position: center;
       min-height: 100vh;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
+      grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.3fr;
       grid-template-areas:
         "nav nav nav"
         "form form form"
@@ -95,16 +95,9 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
     width: 100%;
+    color: $color;
   }
-  .formulario__label {
-    padding-left: 15px;
-    position: absolute;
-    margin-top: -78px;
-    color: rgba(0, 0, 0, 0.3);
-    z-index: -20px;
-    display: block;
-    width: 100%;
-  }
+
   .formulario__submit {
     padding: 15px;
     color: white;

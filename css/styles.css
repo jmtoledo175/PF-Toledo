@@ -1319,6 +1319,7 @@ header nav ul li a {
   margin-left: 0%;
   margin-right: 20%;
   margin-bottom: 2%;
+  margin-top: 5%;
 }
 @media (min-width: 300px) and (max-width: 600px) {
   .TituloMision h2 {
@@ -2348,6 +2349,9 @@ header nav ul li {
   margin-right: 30px;
   margin: 0 10px;
 }
+header nav ul li :focus {
+  background-color: #497eff;
+}
 @media (min-width: 300px) and (max-width: 600px) {
   header nav ul li {
     margin-right: 0;
@@ -2959,7 +2963,7 @@ footer {
 footer div {
   font-size: 1rem;
   color: white;
-  margin-left: 2%;
+  margin-left: 0%;
 }
 @media (min-width: 300px) and (max-width: 600px) {
   footer div {
@@ -3025,12 +3029,12 @@ footer div a {
 }
 
 .copy {
-  color: #002856;
-  align-items: flex-end;
+  color: white;
+  margin-left: 0%;
 }
 @media (min-width: 300px) and (max-width: 600px) {
   .copy {
-    margin-left: 5%;
+    margin-left: 0%;
     font-size: 80%;
     color: white;
   }
@@ -3162,7 +3166,7 @@ body {
     background-position: center;
     min-height: 100vh;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
+    grid-template-rows: 0.1fr 0.2fr 0.2fr 0.2fr 0.3fr;
     grid-template-areas: "nav nav nav" "form form form" "form form form" "form form form" "footer footer footer";
   }
 }
@@ -3340,15 +3344,7 @@ form .formulario__input {
   border: 1px solid rgba(0, 0, 0, 0.1);
   display: block;
   width: 100%;
-}
-form .formulario__label {
-  padding-left: 15px;
-  position: absolute;
-  margin-top: -78px;
-  color: rgba(0, 0, 0, 0.3);
-  z-index: -20px;
-  display: block;
-  width: 100%;
+  color: #002856;
 }
 form .formulario__submit {
   padding: 15px;
