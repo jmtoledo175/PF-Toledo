@@ -32,99 +32,57 @@ body {
   }
 }
 
-header {
-  grid-area: nav;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  a {
-    width: 30%;
-    img {
-      width: 45%;
-    }
-  }
-  nav {
-    list-style: none;
-    text-align: center;
-    margin-left: 5%;
-    ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-grow: 1;
-      li {
-        display: inline-block;
-        margin-right: 30px;
-        margin: 0 10px;
-        a {
-          text-decoration: none;
-          font-size: 120%;
-          font-weight: 700;
-          color: $color;
-        }
-      }
-    }
-  }
-}
-
 form {
-  width: 40%;
-  max-width: 100%;
+  width: 100vh;
+  max-width: 1500vh;
   margin: auto;
-  margin-top: 2%;
-  padding: 20px;
-  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  margin-top: 5vh;
+  padding: 5vh;
+  box-shadow: 0 0 10vh 0.5vh rgba(0, 0, 0, 0.3);
   grid-area: form;
   @include mobile {
-    width: 95%;
-    height: 110%;
-    margin-top: 10%;
+    width: 50vh;
+    height: 50vh;
+    margin-top: 5vh;
   }
   h1 {
     text-align: center;
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0vh;
+
     @include mobile {
-      font-size: 120%;
+      font-size: 3vh;
     }
   }
   .formulario__input {
-    padding: 20px;
-    margin-bottom: 5%;
+    padding: 3vh;
+    margin-bottom: 3vh;
     background: rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 0.5vh solid rgba(0, 0, 0, 0.1);
     display: block;
-    width: 100%;
+    width: 90vh;
     color: $color;
+    font-size: 2vh;
+    @include mobile {
+      padding: 1vh;
+      margin-bottom: 1vh;
+      width: 40vh;
+    }
   }
 
   .formulario__submit {
-    padding: 15px;
+    padding: 3vh;
     color: white;
     background-color: $color;
+    font-size: 2vh;
     cursor: pointer;
     border: none;
     display: block;
-    width: 100%;
+    width: 90vh;
     @include mobile {
-      margin-top: 20%;
+      margin-top: 5vh;
       margin-bottom: 0%;
-    }
-  }
-}
-
-footer {
-  grid-area: footer;
-  display: flex;
-  align-items: flex-end;
-  margin-top: 3%;
-  div {
-    font-size: 80%;
-    color: white;
-    margin-left: 2%;
-    a {
-      color: white;
-      text-decoration: none;
+      width: 40vh;
     }
   }
 }

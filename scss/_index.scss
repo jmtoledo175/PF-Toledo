@@ -8,20 +8,89 @@ body {
   font-family: $font;
   color: $color;
   @include mobile;
+  header {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+    flex-wrap: nowrap;
+    @include mobile {
+      margin-top: 2%;
+      padding: 0%;
+    }
+    a {
+      // width: 30%;
+      @include mobile {
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+        margin-bottom: 0%;
+      }
+      img {
+        width: 20vh;
+        @include mobile {
+          width: 15vh;
+          margin-left: 2vh;
+        }
+      }
+    }
+    nav {
+      list-style: none;
+      text-align: center;
+      margin-left: 5vh;
+      @include mobile {
+        text-align: left;
+        margin-left: 2%;
+        font-size: 80%;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        li {
+          display: inline-block;
+          margin-right: 5vh;
+          margin: 0 2vh;
+
+          :focus {
+            background-color: #497eff;
+          }
+          @include mobile {
+            margin-right: 0;
+            flex-grow: 0;
+          }
+          a {
+            text-decoration: none;
+            font-size: 2vh;
+            font-weight: 700;
+            color: $color;
+
+            @include mobile {
+              font-weight: 500;
+              color: $color;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @if $vista == mobile {
   @media (min-width: 300px) and (max-width: 600px) {
   }
 } @else if $vista == desktop {
-  @media (min-width: 1200px) {
+  @media (min-width: 1000px) {
     .GridConteinerMain {
       display: grid;
-      background-image: url("../Image/Fondo.svg");
+      background-image: url("../Image/wave-haikei.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       min-height: 100vh;
+      flex-wrap: wrap;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 0.1fr 0.4fr 0.4fr 0.1fr 0.2fr;
       grid-template-areas:
@@ -34,83 +103,22 @@ body {
   }
 }
 
-header {
-  grid-area: nav;
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  @include mobile {
-    margin-top: 2%;
-    padding: 0%;
-  }
-  a {
-    width: 30%;
-    @include mobile {
-      align-items: center;
-      justify-content: center;
-      margin-top: 2%;
-      margin-bottom: 0%;
-    }
-    img {
-      width: 45%;
-    }
-  }
-  nav {
-    list-style: none;
-    text-align: center;
-    margin-left: 5%;
-    @include mobile {
-      text-align: left;
-      margin-left: 2%;
-      font-size: 60%;
-    }
-    ul {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-grow: 1;
-      li {
-        display: inline-block;
-        margin-right: 30px;
-        margin: 0 10px;
-        :focus {
-          background-color: #497eff;
-        }
-        @include mobile {
-          margin-right: 0;
-          flex-grow: 0;
-        }
-        a {
-          text-decoration: none;
-          font-size: 120%;
-          font-weight: 700;
-          color: $color;
-
-          @include mobile {
-            font-weight: 300;
-            color: $color;
-          }
-        }
-      }
-    }
-  }
-}
-
 div {
   grid-area: text;
   align-self: flex-end;
   h2 {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 1vh;
+    margin-left: 8vh;
+    margin-right: 1vh;
     margin-bottom: 0%;
     font-size: 200%;
     @include mobile {
-      font-size: 120%;
+      font-size: 3vh;
       margin-top: 0%;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: 8vh;
+      margin-right: 8vh;
       margin-bottom: 0%;
+      text-align: center;
     }
   }
 }
@@ -123,20 +131,20 @@ div {
   }
   h3 {
     text-transform: capitalize;
-    font-size: 120%;
+    font-size: 2vh;
     font-weight: 500;
-    margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 1%;
+    margin-top: 0.5vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+    margin-bottom: 0.5vh;
     @include mobile {
       text-transform: capitalize;
-      font-size: 80%;
+      font-size: 2vh;
       font-weight: 500;
-      margin-top: 0%;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-bottom: 1%;
+      margin-top: 0vh;
+      margin-left: 8vh;
+      margin-right: 8vh;
+      margin-bottom: 1vh;
       text-align: center;
     }
   }
@@ -150,16 +158,16 @@ div {
     align-items: center;
   }
   img {
-    width: 90%;
+    width: 60vh;
 
-    margin-right: 5%;
+    margin-right: 5vh;
     @include mobile {
-      width: 70%;
-      height: 90%;
-      margin-left: 15%;
-      margin-right: 20%;
-      margin-bottom: 0%;
-      margin-top: 5%;
+      width: 45vh;
+      height: 30vh;
+      margin-left: 10vh;
+      margin-right: 15vh;
+      margin-bottom: 0vh;
+      margin-top: 8vh;
     }
   }
 }
@@ -177,14 +185,14 @@ div {
   }
   button {
     font-weight: 700;
-    font-size: 100%;
-    padding: 20px;
-    border-radius: 3px;
+    font-size: 2vh;
+    padding: 1vh;
+    border-radius: 1vh;
     background-color: $color;
     color: white;
     @include mobile {
-      padding: 10px;
-      font-size: 80%;
+      padding: 1vh;
+      font-size: 2vh;
       background-color: #002856;
       color: white;
     }
@@ -194,11 +202,11 @@ div {
 footer {
   grid-area: footer;
   display: flex;
-
+  margin-left: 0.5vh;
   div {
-    font-size: 1rem;
+    font-size: 4vh;
     color: white;
-    margin-left: 0%;
+    margin-left: 0.5vh;
 
     @include mobile {
       font-size: 80%;
@@ -206,17 +214,18 @@ footer {
     a {
       color: white;
       text-decoration: none;
+      font-size: 2vh;
     }
   }
 }
 
 .copy {
   color: white;
-
+  font-size: 2vh;
   margin-left: 0%;
   @include mobile {
     margin-left: 0%;
-    font-size: 80%;
+    font-size: 2vh;
     color: white;
   }
 }

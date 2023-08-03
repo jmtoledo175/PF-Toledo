@@ -1,9 +1,9 @@
 @mixin mobile {
-  @media (min-width: 300px) and (max-width: 600px) {
+  @media (min-width: 300px) and (max-width: 1200px) {
     @content;
     .GridConteinerMain {
       display: grid;
-      background-image: url("../Image/FondoTelefono.svg");
+      background-image: url("../Image/wave-haikei.svg");
       background-repeat: no-repeat;
       background-size: cover;
       grid-template-columns: repeat(3, 1fr);
@@ -18,7 +18,7 @@
     }
     .GridConteinerServicios {
       display: grid;
-      background-image: url("../Image/FondoTelefono.svg");
+      background-image: url("../Image/wave-haikei.svg");
       min-height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
@@ -37,7 +37,7 @@
     }
     .GridConteinerNosotros {
       display: grid;
-      background-image: url("../Image/FondoTelefono.svg");
+      background-image: url("../Image/wave-haikei.svg");
       min-height: 100vh;
       background-repeat: no-repeat;
       background-size: cover;
@@ -56,7 +56,7 @@
     }
     .GridConteinerBlog {
       display: grid;
-      background-image: url("../Image/FondoTelefono.svg");
+      background-image: url("../Image/wave-haikei.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -73,13 +73,13 @@
     }
     .GridConteinerContacto {
       display: grid;
-      background-image: url("../Image/FondoTelefono.svg");
+      background-image: url("../Image/wave-haikei.svg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
       min-height: 100vh;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 0.1fr 0.5fr 0.5fr 0.8fr;
+      grid-template-rows: 0.1fr 0.5fr 0.5fr 0.4fr;
       grid-template-areas:
         "nav nav nav"
         "form form form"
